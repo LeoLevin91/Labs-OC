@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1386">
+            <state relative-caret-position="18">
               <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -106,6 +106,7 @@
       <workItem from="1551201334153" duration="4475000" />
       <workItem from="1551209263939" duration="230000" />
       <workItem from="1551330239506" duration="886000" />
+      <workItem from="1552311650224" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="First_Version 1  lab">
       <created>1551209441204</created>
@@ -118,7 +119,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20552000" />
+    <option name="totallyTimeSpent" value="20574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="6" />
@@ -205,7 +206,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
+        <state relative-caret-position="18">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
