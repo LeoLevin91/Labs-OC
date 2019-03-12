@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.o CMakeFiles/SERVER.cpp.dir/text_buff.cpp.o  -o SERVER.cpp 

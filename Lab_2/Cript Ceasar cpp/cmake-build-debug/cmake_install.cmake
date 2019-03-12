@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo/CLionProjects/Cript Ceasar
+# Install script for directory: /home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/leo/CLionProjects/Cript Ceasar/ENCRIPT.cpp" "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.o"
-  "/home/leo/CLionProjects/Cript Ceasar/main.cpp" "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/main.cpp.o"
+  "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/CLIENT.cpp" "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/CLIENT.cpp.o"
+  "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/ENCRIPT.cpp" "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.o"
+  "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/SERVER.cpp" "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/SERVER.cpp.o"
+  "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/main.cpp" "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

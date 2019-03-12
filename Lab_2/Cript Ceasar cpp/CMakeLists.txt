@@ -3,4 +3,4 @@ project(Cript_Ceasar)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Cript_Ceasar main.cpp  ENCRIPT.cpp)
+add_executable(SERVER.cpp CLIENT.cpp text_buff.cpp)

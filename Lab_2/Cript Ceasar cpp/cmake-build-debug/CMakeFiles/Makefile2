@@ -59,45 +59,45 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/leo/CLionProjects/Cript Ceasar"
+CMAKE_SOURCE_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cript_Ceasar.dir
+# Target rules for target CMakeFiles/SERVER.cpp.dir
 
 # All Build rule for target.
-CMakeFiles/Cript_Ceasar.dir/all:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/depend
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target Cript_Ceasar"
-.PHONY : CMakeFiles/Cript_Ceasar.dir/all
+CMakeFiles/SERVER.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target SERVER.cpp"
+.PHONY : CMakeFiles/SERVER.cpp.dir/all
 
 # Include target in all.
-all: CMakeFiles/Cript_Ceasar.dir/all
+all: CMakeFiles/SERVER.cpp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cript_Ceasar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cript_Ceasar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Cript_Ceasar.dir/rule
+CMakeFiles/SERVER.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SERVER.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/SERVER.cpp.dir/rule
 
 # Convenience name for target.
-Cript_Ceasar: CMakeFiles/Cript_Ceasar.dir/rule
+SERVER.cpp: CMakeFiles/SERVER.cpp.dir/rule
 
-.PHONY : Cript_Ceasar
-
-# clean rule for target.
-CMakeFiles/Cript_Ceasar.dir/clean:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/clean
-.PHONY : CMakeFiles/Cript_Ceasar.dir/clean
+.PHONY : SERVER.cpp
 
 # clean rule for target.
-clean: CMakeFiles/Cript_Ceasar.dir/clean
+CMakeFiles/SERVER.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/clean
+.PHONY : CMakeFiles/SERVER.cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SERVER.cpp.dir/clean
 
 .PHONY : clean
 

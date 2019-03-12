@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/leo/CLionProjects/Cript Ceasar"
+CMAKE_SOURCE_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles" "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cript_Ceasar
+# Target rules for targets named SERVER.cpp
 
 # Build rule for target.
-Cript_Ceasar: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cript_Ceasar
-.PHONY : Cript_Ceasar
+SERVER.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SERVER.cpp
+.PHONY : SERVER.cpp
 
 # fast build rule for target.
-Cript_Ceasar/fast:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/build
-.PHONY : Cript_Ceasar/fast
+SERVER.cpp/fast:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/build
+.PHONY : SERVER.cpp/fast
 
-ENCRIPT.o: ENCRIPT.cpp.o
+CLIENT.o: CLIENT.cpp.o
 
-.PHONY : ENCRIPT.o
-
-# target to build an object file
-ENCRIPT.cpp.o:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.o
-.PHONY : ENCRIPT.cpp.o
-
-ENCRIPT.i: ENCRIPT.cpp.i
-
-.PHONY : ENCRIPT.i
-
-# target to preprocess a source file
-ENCRIPT.cpp.i:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.i
-.PHONY : ENCRIPT.cpp.i
-
-ENCRIPT.s: ENCRIPT.cpp.s
-
-.PHONY : ENCRIPT.s
-
-# target to generate assembly for a file
-ENCRIPT.cpp.s:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.s
-.PHONY : ENCRIPT.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : CLIENT.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/main.cpp.o
-.PHONY : main.cpp.o
+CLIENT.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.o
+.PHONY : CLIENT.cpp.o
 
-main.i: main.cpp.i
+CLIENT.i: CLIENT.cpp.i
 
-.PHONY : main.i
+.PHONY : CLIENT.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/main.cpp.i
-.PHONY : main.cpp.i
+CLIENT.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.i
+.PHONY : CLIENT.cpp.i
 
-main.s: main.cpp.s
+CLIENT.s: CLIENT.cpp.s
 
-.PHONY : main.s
+.PHONY : CLIENT.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cript_Ceasar.dir/build.make CMakeFiles/Cript_Ceasar.dir/main.cpp.s
-.PHONY : main.cpp.s
+CLIENT.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.s
+.PHONY : CLIENT.cpp.s
+
+text_buff.o: text_buff.cpp.o
+
+.PHONY : text_buff.o
+
+# target to build an object file
+text_buff.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.o
+.PHONY : text_buff.cpp.o
+
+text_buff.i: text_buff.cpp.i
+
+.PHONY : text_buff.i
+
+# target to preprocess a source file
+text_buff.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.i
+.PHONY : text_buff.cpp.i
+
+text_buff.s: text_buff.cpp.s
+
+.PHONY : text_buff.s
+
+# target to generate assembly for a file
+text_buff.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.s
+.PHONY : text_buff.cpp.s
 
 # Help Target
 help:
@@ -184,14 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Cript_Ceasar"
+	@echo "... SERVER.cpp"
 	@echo "... edit_cache"
-	@echo "... ENCRIPT.o"
-	@echo "... ENCRIPT.i"
-	@echo "... ENCRIPT.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... CLIENT.o"
+	@echo "... CLIENT.i"
+	@echo "... CLIENT.s"
+	@echo "... text_buff.o"
+	@echo "... text_buff.i"
+	@echo "... text_buff.s"
 .PHONY : help
 
 

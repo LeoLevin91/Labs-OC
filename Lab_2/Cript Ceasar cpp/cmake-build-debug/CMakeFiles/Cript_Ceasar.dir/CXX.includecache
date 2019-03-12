@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/leo/CLionProjects/Cript Ceasar/ENCRIPT.cpp
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/ENCRIPT.cpp
 iostream
 -
 map
 -
 cmath
 -
+
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/main.cpp
 

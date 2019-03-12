@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cript_Ceasar.dir/main.cpp.o"
   "CMakeFiles/Cript_Ceasar.dir/ENCRIPT.cpp.o"
+  "CMakeFiles/Cript_Ceasar.dir/SERVER.cpp.o"
+  "CMakeFiles/Cript_Ceasar.dir/CLIENT.cpp.o"
   "Cript_Ceasar.pdb"
   "Cript_Ceasar"
 )

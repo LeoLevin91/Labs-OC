@@ -1,3 +1,3 @@
-/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/Cript_Ceasar.dir
-/home/leo/CLionProjects/Cript Ceasar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/SERVER.cpp.dir
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
