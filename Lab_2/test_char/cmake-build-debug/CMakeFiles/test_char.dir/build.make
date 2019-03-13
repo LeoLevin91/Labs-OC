@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/CLionProjects/test_char
+CMAKE_SOURCE_DIR = /home/leo/CLionProjects/Labs-OC/Lab_2/test_char
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/CLionProjects/test_char/cmake-build-debug
+CMAKE_BINARY_DIR = /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_char.dir/depend.make
@@ -57,60 +57,45 @@ include CMakeFiles/test_char.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_char.dir/flags.make
 
-CMakeFiles/test_char.dir/encript.cpp.o: CMakeFiles/test_char.dir/flags.make
-CMakeFiles/test_char.dir/encript.cpp.o: ../encript.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_char.dir/encript.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_char.dir/encript.cpp.o -c /home/leo/CLionProjects/test_char/encript.cpp
-
-CMakeFiles/test_char.dir/encript.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_char.dir/encript.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/CLionProjects/test_char/encript.cpp > CMakeFiles/test_char.dir/encript.cpp.i
-
-CMakeFiles/test_char.dir/encript.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_char.dir/encript.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/CLionProjects/test_char/encript.cpp -o CMakeFiles/test_char.dir/encript.cpp.s
-
 CMakeFiles/test_char.dir/cli1.cpp.o: CMakeFiles/test_char.dir/flags.make
 CMakeFiles/test_char.dir/cli1.cpp.o: ../cli1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_char.dir/cli1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_char.dir/cli1.cpp.o -c /home/leo/CLionProjects/test_char/cli1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_char.dir/cli1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_char.dir/cli1.cpp.o -c /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cli1.cpp
 
 CMakeFiles/test_char.dir/cli1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_char.dir/cli1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/CLionProjects/test_char/cli1.cpp > CMakeFiles/test_char.dir/cli1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cli1.cpp > CMakeFiles/test_char.dir/cli1.cpp.i
 
 CMakeFiles/test_char.dir/cli1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_char.dir/cli1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/CLionProjects/test_char/cli1.cpp -o CMakeFiles/test_char.dir/cli1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cli1.cpp -o CMakeFiles/test_char.dir/cli1.cpp.s
 
 CMakeFiles/test_char.dir/serv1.cpp.o: CMakeFiles/test_char.dir/flags.make
 CMakeFiles/test_char.dir/serv1.cpp.o: ../serv1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_char.dir/serv1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_char.dir/serv1.cpp.o -c /home/leo/CLionProjects/test_char/serv1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_char.dir/serv1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_char.dir/serv1.cpp.o -c /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/serv1.cpp
 
 CMakeFiles/test_char.dir/serv1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_char.dir/serv1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/CLionProjects/test_char/serv1.cpp > CMakeFiles/test_char.dir/serv1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/serv1.cpp > CMakeFiles/test_char.dir/serv1.cpp.i
 
 CMakeFiles/test_char.dir/serv1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_char.dir/serv1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/CLionProjects/test_char/serv1.cpp -o CMakeFiles/test_char.dir/serv1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/serv1.cpp -o CMakeFiles/test_char.dir/serv1.cpp.s
 
 # Object files for target test_char
 test_char_OBJECTS = \
-"CMakeFiles/test_char.dir/encript.cpp.o" \
 "CMakeFiles/test_char.dir/cli1.cpp.o" \
 "CMakeFiles/test_char.dir/serv1.cpp.o"
 
 # External object files for target test_char
 test_char_EXTERNAL_OBJECTS =
 
-test_char: CMakeFiles/test_char.dir/encript.cpp.o
 test_char: CMakeFiles/test_char.dir/cli1.cpp.o
 test_char: CMakeFiles/test_char.dir/serv1.cpp.o
 test_char: CMakeFiles/test_char.dir/build.make
 test_char: CMakeFiles/test_char.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test_char"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_char"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_char.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +108,6 @@ CMakeFiles/test_char.dir/clean:
 .PHONY : CMakeFiles/test_char.dir/clean
 
 CMakeFiles/test_char.dir/depend:
-	cd /home/leo/CLionProjects/test_char/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/CLionProjects/test_char /home/leo/CLionProjects/test_char /home/leo/CLionProjects/test_char/cmake-build-debug /home/leo/CLionProjects/test_char/cmake-build-debug /home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles/test_char.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo/CLionProjects/Labs-OC/Lab_2/test_char /home/leo/CLionProjects/Labs-OC/Lab_2/test_char /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles/test_char.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_char.dir/depend
 

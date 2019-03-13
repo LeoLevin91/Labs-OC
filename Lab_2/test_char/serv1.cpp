@@ -42,8 +42,8 @@ int main()
     int sock, listener;
     struct sockaddr_in addr;
     char buf[1024];
-    char buf_key[1024];
-    int bytes_read;
+    string aa;
+    int key;
 
     listener = socket(AF_INET, SOCK_STREAM, 0);
     if(listener < 0)
@@ -77,16 +77,21 @@ int main()
 
         while(1)
         {
-            bytes_read = recv(sock, buf, 1024, 0);
-            if(bytes_read <= 0) break;
+
+            recv(sock, (char*)&key, sizeof(int), 0);
+            recv(sock, buf, 1024, 0);
+
+            cout << key << endl;
+            cout << aa << endl;
+
+            int k = key;
             string t = buf;
-            string tt = decript(buf, 3);
-            cout << "РАсшифровка сервером: "<< tt << endl;
-            //cout << buf << endl;
-            //send(sock, buf, bytes_read, 0);
-            //close(sock);
+            string tt = decript(buf, k);
+            cout << "РАсшифровка сервером: "<< tt;
+            cout << "Ключ: (серв)" << k << endl;
             break;
         }
+
 
         break;
     }

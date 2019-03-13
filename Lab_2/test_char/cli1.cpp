@@ -37,22 +37,18 @@ string encript(string text, int key) {
 int main()
 {
     string a;
-    int key = 3;
+    int key;
     char b[100]; //Переменная где хранится результат
 
     cout << "Введите строку которую хотите зашифровать: " << endl;
     getline(cin, a);
+    cout << "Введите ключ: ";
+    cin >> key;
     string result = encript(a, key);
     cout << "Зашифрованое слово: " << result << endl;
     for(int i = 0; i != result.length(); i++){
         b[i] = result[i];
     }
-
-    //Переводим ключ в char
-    //char buf[sizeof(b)];
-    //char ch_key[1] = char(key);
-    //char buf_key[sizeof(key)];
-
 
 
     int sock_cli;
@@ -74,13 +70,10 @@ int main()
         exit(2);
     }
 
+
+    send(sock_cli, (char*)&key, sizeof(int), 0);
     send(sock_cli, b, sizeof(b), 0);
 
-    //send(sock, &key, sizeof(buf_key), 0);
-    //recv(sock, buf, sizeof(b), 0);
-
-    //printf(buf);
-    //close(sock_cli);
     shutdown(sock_cli, SHUT_RDWR);
 
     return 0;

@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/CLionProjects/test_char
+CMAKE_SOURCE_DIR = /home/leo/CLionProjects/Labs-OC/Lab_2/test_char
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/CLionProjects/test_char/cmake-build-debug
+CMAKE_BINARY_DIR = /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles /home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/CLionProjects/test_char/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/CLionProjects/Labs-OC/Lab_2/test_char/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ cli1.cpp.s:
 	$(MAKE) -f CMakeFiles/test_char.dir/build.make CMakeFiles/test_char.dir/cli1.cpp.s
 .PHONY : cli1.cpp.s
 
-encript.o: encript.cpp.o
-
-.PHONY : encript.o
-
-# target to build an object file
-encript.cpp.o:
-	$(MAKE) -f CMakeFiles/test_char.dir/build.make CMakeFiles/test_char.dir/encript.cpp.o
-.PHONY : encript.cpp.o
-
-encript.i: encript.cpp.i
-
-.PHONY : encript.i
-
-# target to preprocess a source file
-encript.cpp.i:
-	$(MAKE) -f CMakeFiles/test_char.dir/build.make CMakeFiles/test_char.dir/encript.cpp.i
-.PHONY : encript.cpp.i
-
-encript.s: encript.cpp.s
-
-.PHONY : encript.s
-
-# target to generate assembly for a file
-encript.cpp.s:
-	$(MAKE) -f CMakeFiles/test_char.dir/build.make CMakeFiles/test_char.dir/encript.cpp.s
-.PHONY : encript.cpp.s
-
 serv1.o: serv1.cpp.o
 
 .PHONY : serv1.o
@@ -216,9 +189,6 @@ help:
 	@echo "... cli1.o"
 	@echo "... cli1.i"
 	@echo "... cli1.s"
-	@echo "... encript.o"
-	@echo "... encript.i"
-	@echo "... encript.s"
 	@echo "... serv1.o"
 	@echo "... serv1.i"
 	@echo "... serv1.s"

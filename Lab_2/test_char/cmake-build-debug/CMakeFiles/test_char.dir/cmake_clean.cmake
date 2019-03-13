@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_char.dir/encript.cpp.o"
   "CMakeFiles/test_char.dir/cli1.cpp.o"
   "CMakeFiles/test_char.dir/serv1.cpp.o"
   "test_char.pdb"
