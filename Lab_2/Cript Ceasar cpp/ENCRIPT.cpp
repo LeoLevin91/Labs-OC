@@ -56,16 +56,15 @@ string decript(string text, int key) {
 }
 
 
-int main() {
-    string a;
-    int key;
-
-    string b;
-    cout << "Введите строку которую хотите зашифровать: " << endl;
-    getline(cin, a);
-    cout << "Введите ключ: " << endl;
-    cin >> key;
-    cout << decript(a, key) << endl;
-
-
-}
+//int main() {
+//    char a[];
+//    int key;
+//
+//    cout << "Введите строку которую хотите зашифровать: " << endl;
+//    getline(cin, a);
+//    cout << "Введите ключ: " << endl;
+//    cin >> key;
+//    cout << decript(a, key) << endl;
+//
+//
+//}

@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SERVER.cpp
+# Target rules for targets named test.cpp
 
 # Build rule for target.
-SERVER.cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SERVER.cpp
-.PHONY : SERVER.cpp
+test.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test.cpp
+.PHONY : test.cpp
 
 # fast build rule for target.
-SERVER.cpp/fast:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/build
-.PHONY : SERVER.cpp/fast
+test.cpp/fast:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/build
+.PHONY : test.cpp/fast
 
 CLIENT.o: CLIENT.cpp.o
 
@@ -129,7 +129,7 @@ CLIENT.o: CLIENT.cpp.o
 
 # target to build an object file
 CLIENT.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.o
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/CLIENT.cpp.o
 .PHONY : CLIENT.cpp.o
 
 CLIENT.i: CLIENT.cpp.i
@@ -138,7 +138,7 @@ CLIENT.i: CLIENT.cpp.i
 
 # target to preprocess a source file
 CLIENT.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.i
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/CLIENT.cpp.i
 .PHONY : CLIENT.cpp.i
 
 CLIENT.s: CLIENT.cpp.s
@@ -147,8 +147,89 @@ CLIENT.s: CLIENT.cpp.s
 
 # target to generate assembly for a file
 CLIENT.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/CLIENT.cpp.s
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/CLIENT.cpp.s
 .PHONY : CLIENT.cpp.s
+
+ENCRIPT.o: ENCRIPT.cpp.o
+
+.PHONY : ENCRIPT.o
+
+# target to build an object file
+ENCRIPT.cpp.o:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ENCRIPT.cpp.o
+.PHONY : ENCRIPT.cpp.o
+
+ENCRIPT.i: ENCRIPT.cpp.i
+
+.PHONY : ENCRIPT.i
+
+# target to preprocess a source file
+ENCRIPT.cpp.i:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ENCRIPT.cpp.i
+.PHONY : ENCRIPT.cpp.i
+
+ENCRIPT.s: ENCRIPT.cpp.s
+
+.PHONY : ENCRIPT.s
+
+# target to generate assembly for a file
+ENCRIPT.cpp.s:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ENCRIPT.cpp.s
+.PHONY : ENCRIPT.cpp.s
+
+SERVER.o: SERVER.cpp.o
+
+.PHONY : SERVER.o
+
+# target to build an object file
+SERVER.cpp.o:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/SERVER.cpp.o
+.PHONY : SERVER.cpp.o
+
+SERVER.i: SERVER.cpp.i
+
+.PHONY : SERVER.i
+
+# target to preprocess a source file
+SERVER.cpp.i:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/SERVER.cpp.i
+.PHONY : SERVER.cpp.i
+
+SERVER.s: SERVER.cpp.s
+
+.PHONY : SERVER.s
+
+# target to generate assembly for a file
+SERVER.cpp.s:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/SERVER.cpp.s
+.PHONY : SERVER.cpp.s
+
+lweqr.o: lweqr.cpp.o
+
+.PHONY : lweqr.o
+
+# target to build an object file
+lweqr.cpp.o:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/lweqr.cpp.o
+.PHONY : lweqr.cpp.o
+
+lweqr.i: lweqr.cpp.i
+
+.PHONY : lweqr.i
+
+# target to preprocess a source file
+lweqr.cpp.i:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/lweqr.cpp.i
+.PHONY : lweqr.cpp.i
+
+lweqr.s: lweqr.cpp.s
+
+.PHONY : lweqr.s
+
+# target to generate assembly for a file
+lweqr.cpp.s:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/lweqr.cpp.s
+.PHONY : lweqr.cpp.s
 
 text_buff.o: text_buff.cpp.o
 
@@ -156,7 +237,7 @@ text_buff.o: text_buff.cpp.o
 
 # target to build an object file
 text_buff.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.o
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/text_buff.cpp.o
 .PHONY : text_buff.cpp.o
 
 text_buff.i: text_buff.cpp.i
@@ -165,7 +246,7 @@ text_buff.i: text_buff.cpp.i
 
 # target to preprocess a source file
 text_buff.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.i
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/text_buff.cpp.i
 .PHONY : text_buff.cpp.i
 
 text_buff.s: text_buff.cpp.s
@@ -174,7 +255,7 @@ text_buff.s: text_buff.cpp.s
 
 # target to generate assembly for a file
 text_buff.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/text_buff.cpp.s
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/text_buff.cpp.s
 .PHONY : text_buff.cpp.s
 
 # Help Target
@@ -184,11 +265,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... SERVER.cpp"
+	@echo "... test.cpp"
 	@echo "... edit_cache"
 	@echo "... CLIENT.o"
 	@echo "... CLIENT.i"
 	@echo "... CLIENT.s"
+	@echo "... ENCRIPT.o"
+	@echo "... ENCRIPT.i"
+	@echo "... ENCRIPT.s"
+	@echo "... SERVER.o"
+	@echo "... SERVER.i"
+	@echo "... SERVER.s"
+	@echo "... lweqr.o"
+	@echo "... lweqr.i"
+	@echo "... lweqr.s"
 	@echo "... text_buff.o"
 	@echo "... text_buff.i"
 	@echo "... text_buff.s"

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/CLIENT.cpp
+iostream
+-
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
+-
+
+/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/text_buff.cpp
+iostream
+-
+

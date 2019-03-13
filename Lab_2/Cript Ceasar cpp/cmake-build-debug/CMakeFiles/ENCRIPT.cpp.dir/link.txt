@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ENCRIPT.cpp.dir/SERVER.cpp.o CMakeFiles/ENCRIPT.cpp.dir/CLIENT.cpp.o CMakeFiles/ENCRIPT.cpp.dir/text_buff.cpp.o CMakeFiles/ENCRIPT.cpp.dir/test.cpp.o  -o ENCRIPT.cpp 

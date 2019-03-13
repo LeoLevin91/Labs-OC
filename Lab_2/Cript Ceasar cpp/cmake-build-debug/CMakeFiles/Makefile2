@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp"
 CMAKE_BINARY_DIR = "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/SERVER.cpp.dir
+# Target rules for target CMakeFiles/test.cpp.dir
 
 # All Build rule for target.
-CMakeFiles/SERVER.cpp.dir/all:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/depend
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target SERVER.cpp"
-.PHONY : CMakeFiles/SERVER.cpp.dir/all
+CMakeFiles/test.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target test.cpp"
+.PHONY : CMakeFiles/test.cpp.dir/all
 
 # Include target in all.
-all: CMakeFiles/SERVER.cpp.dir/all
+all: CMakeFiles/test.cpp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SERVER.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SERVER.cpp.dir/all
+CMakeFiles/test.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/leo/CLionProjects/Labs-OC/Lab_2/Cript Ceasar cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/SERVER.cpp.dir/rule
+.PHONY : CMakeFiles/test.cpp.dir/rule
 
 # Convenience name for target.
-SERVER.cpp: CMakeFiles/SERVER.cpp.dir/rule
+test.cpp: CMakeFiles/test.cpp.dir/rule
 
-.PHONY : SERVER.cpp
-
-# clean rule for target.
-CMakeFiles/SERVER.cpp.dir/clean:
-	$(MAKE) -f CMakeFiles/SERVER.cpp.dir/build.make CMakeFiles/SERVER.cpp.dir/clean
-.PHONY : CMakeFiles/SERVER.cpp.dir/clean
+.PHONY : test.cpp
 
 # clean rule for target.
-clean: CMakeFiles/SERVER.cpp.dir/clean
+CMakeFiles/test.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/clean
+.PHONY : CMakeFiles/test.cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.cpp.dir/clean
 
 .PHONY : clean
 
